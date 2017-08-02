@@ -1,9 +1,6 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
-import Input from '@jetbrains/ring-ui/components/input/input';
-import List from '@jetbrains/ring-ui/components/list/list';
-import Markdown from '@jetbrains/ring-ui/components/markdown/markdown';
-import fuzzyHighlight from '@jetbrains/ring-ui/components/global/fuzzy-highlight';
+import {Input, List, Markdown, fuzzyHighlight} from '@jetbrains/ring-ui';
 
 import {currentPath} from './utils';
 import styles from './index.css';

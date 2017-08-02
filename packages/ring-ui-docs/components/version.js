@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Dropdown from '@jetbrains/ring-ui/components/dropdown/dropdown';
-import PopupMenu from '@jetbrains/ring-ui/components/popup-menu/popup-menu';
+import {Dropdown, PopupMenu} from '@jetbrains/ring-ui';
 
 import branches from '../branches.json';
 

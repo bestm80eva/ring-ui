@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import parseFrontMatter from 'front-matter';
-import Markdown from '@jetbrains/ring-ui/components/markdown/markdown';
-import {H1} from '@jetbrains/ring-ui/components/heading/heading';
+import {Markdown, H1} from '@jetbrains/ring-ui';
 
 import styles from './index.css';
 import Example from './example';

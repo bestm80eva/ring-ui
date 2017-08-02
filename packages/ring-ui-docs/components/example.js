@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from '@jetbrains/ring-ui/components/link/link';
-import Code from '@jetbrains/ring-ui/components/code/code';
-import {H3} from '@jetbrains/ring-ui/components/heading/heading';
+import {Link, Code, H3} from '@jetbrains/ring-ui';
 
 import styles from './index.css';
 import Iframe from './iframe';

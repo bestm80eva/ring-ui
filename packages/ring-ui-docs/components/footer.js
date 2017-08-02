@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '@jetbrains/ring-ui/components/footer/footer';
+import {Footer} from '@jetbrains/ring-ui';
 
 const data = [
   [

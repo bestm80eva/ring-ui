@@ -3,9 +3,7 @@ import DashboardAddons from 'hub-dashboard-addons';
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {render} from 'react-dom';
-import Select from '@jetbrains/ring-ui/components/select/select';
-import Panel from '@jetbrains/ring-ui/components/panel/panel';
-import Button from '@jetbrains/ring-ui/components/button/button';
+import {Select, Panel, Button} from '@jetbrains/ring-ui';
 
 import 'file-loader?name=[name].[ext]!../../manifest.json'; // eslint-disable-line import/no-unresolved
 import styles from './app.css';

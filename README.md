@@ -25,7 +25,7 @@ In case boilerplate generators are not your thing and you prefer to understand t
    ``` javascript
    import React from 'react';
    import ReactDOM from 'react-dom';
-   import LoaderInline from '@jetbrains/ring-ui/components/loader-inline/loader-inline';
+   import {LoaderInline} from '@jetbrains/ring-ui';
    
    ReactDOM.render(<LoaderInline/>, document.getElementById('container'));
    ```
